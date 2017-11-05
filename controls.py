@@ -1,5 +1,3 @@
-import win32gui
-import win32con
 import time
 import ctypes
 

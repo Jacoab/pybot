@@ -1,4 +1,6 @@
-from bot import GameBot
+from capture import ScreeCap
+from PIL import Image
 
-bot = GameBot("Test", 1)
+bot = ScreeCap("Test", 1)
 print(bot.run())
+print(bot.screen_grabs)
